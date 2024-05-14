@@ -1,0 +1,38 @@
+.hidden {
+    display: none; /* Hide elements with the hidden class */
+}
+
+.search-button {
+    cursor: pointer; /* Change cursor to pointer when hovering over the image */
+    
+    /* Adjust the width and height to a percentage relative to the parent element */
+    width: 10%; /* Adjust as needed */
+    height: 10%; /* Adjust as needed */
+    
+    /* Position the search button at the top right corner */
+    position: absolute; /* Positioning relative to the parent */
+    top: 2.5%; /* Distance from the top of the screen */
+    right: 1.5%; /* Distance from the right of the screen */
+}
+
+/* Style for the search container */
+
+.search-container {
+    /* Initially hide the container */
+    display: none;
+    
+    /* Position the container at the top right corner, aligned with the search button */
+    position: absolute; /* Positioning relative to the parent */
+    top: 8%; /* Distance from the top of the screen */
+    right: 1.5%; /* Distance from the right of the screen */
+}
+
+/* Style for the search bar */
+
+.search-bar {
+    padding: 1%; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+    border: 1px solid #ccc; /* Add a border */
+    outline: none; /* Remove focus outline */
+    width: 100%; /* Width to fill the container */
+}

@@ -1,0 +1,120 @@
+.hidden {
+    display: none; /* Hide elements with the hidden class */
+}
+.search-button {
+    cursor: pointer; /* Change cursor to pointer when hovering over the image */
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    
+    /* Position the search button at the top right corner */
+    position: absolute; /* Positioning relative to the parent */
+    top: 50px; /* Distance from the top of the screen */
+    right: 20px; /* Distance from the right of the screen */
+}
+
+/* Style for the search container */
+.search-container {
+    /* Initially hide the container */
+    display: none;
+    
+    /* Position the container at the top right corner, aligned with the search button */
+    position: absolute; /* Positioning relative to the parent */
+    top: 40px; /* Adjust this distance from the top of the screen as needed */
+    right: 10px; /* Distance from the right of the screen */
+}
+
+/* Style for the search bar */
+
+
+.logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    float: left; /* Align to the left */
+    margin-right: 10px; /* Add space between logo and other header elements */
+}
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif; /* Choose a modern font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FFC200; /* Use bright yellow as background color */
+    color: #04006C; /* Use dark blue for text */
+}
+
+/* Header styles */
+header {
+    background-color: #04006C; /* Dark blue background color */
+    color: #FFC200; /* Yellow text color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #FFC200; /* Yellow text color */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFC200; /* Yellow text color */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #FFDD00; /* Slightly different shade of yellow for hover */
+    color: #04006C; /* Change text color to dark blue */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+    background-color: white; /* White background for sections */
+    border-radius: 5px;
+    padding: 20px;
+    color: #04006C; /* Dark blue text color */
+}
+
+/* Section titles */
+section h2, section h3 {
+    color: #04006C; /* Dark blue color for section titles */
+}
+
+/* Links in content sections */
+section div a {
+    color: #04006C; /* Dark blue text color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section div a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #04006C; /* Dark blue background color */
+    color: #FFC200; /* Yellow text color */
+    padding: 10px;
+    text-align: center;
+}

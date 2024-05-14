@@ -1,0 +1,221 @@
+/* Define main colors */
+:root {
+    --primary-color: #04006C; /* Dark blue */
+    --secondary-color: #FFC200; /* Yellow */
+    --background-color: #333; /* Dark background */
+    --tertiary-color: #444;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Use modern font */
+    background-color: var(--background-color); /* Apply dark background color */
+    color: var(--primary-color); /* Dark blue text color */
+    margin: 0; /* Reset margins */
+    padding: 0; /* Reset paddings */
+    line-height: 1.6;
+    min-height: 100vh; /* Ensure minimum height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: var(--primary-color); /* Dark blue background */
+    color: var(--secondary-color); /* Yellow text color */
+    width: 100%; /* Full width */
+    margin: 0 auto; /* Center the navbar */
+}
+
+/* Navbar links */
+.navbar-brand, .navbar-nav .nav-link {
+    color: var(--secondary-color); /* Yellow for the brand and link text */
+}
+
+/* Center align the navbar links */
+.navbar-nav {
+    margin: auto; /* Center the links */
+}
+
+/* Navbar link hover */
+.nav-link:hover {
+    color: var(--primary-color); /* Dark blue text on hover */
+    background-color: var(--secondary-color); /* Yellow background on hover */
+}
+
+
+/* Main content styles */
+main {
+    background-color: var(--background-color); /* Dark background */
+    color: var(--secondary-color); /* Yellow text color */
+    padding: 5%; /* Padding */
+    flex: 1; /* Grow to fill remaining space */
+}
+
+/* Section styles */
+section {
+    background-color: var(--tertiary-color); /* Dark background */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 5%; /* Padding */
+    margin-bottom: 3%; /* Margin bottom */
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--primary-color); /* Dark blue background */
+    color: var(--secondary-color); /* Yellow text color */
+    padding: 1%; /* Padding */
+    text-align: center; /* Center-align the text */
+}
+
+/* Movie container styles */
+.movie-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px; /* Add padding at the bottom */
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+/* Movie box styles */
+.movie-box {
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.movie-box:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.movie-box figcaption {
+    font-family: Arial, sans-serif;
+    color: var(--secondary-color);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.movie-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* TV show section styles */
+.tv-show-section {
+    text-align: center;
+    padding: 20px;
+}
+
+/* TV show details styles */
+.tv-show-details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* TV show poster styles */
+.poster-container {
+    flex: 0 0 40%;
+    margin-right: 20px;
+}
+
+.poster-container img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* -----------------------TV show details styles------------------------------ */
+.details {
+    flex: 0 0 60%;
+    text-align: left;
+}
+
+.synopsis {
+    font-weight: bold;
+}
+
+.play-trailer {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-trailer:hover {
+    background-color: #0056b3;
+}
+
+.trailer-container {
+    margin-top: 20px;
+}
+
+.trailer-video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+/*--------------------------------------------------------------------------*/
+/* Carousel item styles */
+.carousel-item {
+    flex-direction: column;
+    justify-content: space-between; /* Align items vertically */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    align-items: flex-start;  /*Align items to the top */
+}
+
+/* Carousel image styles */
+.carousel-item img {
+    width: 18%; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 6px; /* Add border radius */
+    margin-right: 20px; /* Add spacing between image and content */
+}
+
+/* Carousel caption styles */
+.carousel-caption {
+    margin-left: 55px; /* Add spacing */
+    justify-content: left;
+    vertical-align: text-top;
+    text-align: left; /* Align text to the left */
+}
+
+/* Slide label styles */
+.carousel-caption h3  {
+    text-align: left; /* Align text to the left */
+    font-size: 1.5rem; /* Adjust font size */
+    color: var(--secondary-color); /* Yellow text color */
+}
+.carousel-caption h5  {
+    text-align: left; /* Align text to the left */
+    font-size: 1.5rem; /* Adjust font size */
+    color: var(--secondary-color); /* Yellow text color */
+}
+
+/* Placeholder content styles */
+.carousel-caption p {
+    text-align: left; /* Align text to the left */
+    font-size: 1rem; /* Adjust font size */
+    color: var(--secondary-color); /* Darker text color */
+}
+
+.carousel-caption ul {
+    text-align: left; /* Align text to the left */
+    font-size: 1rem; /* Adjust font size */
+    color: var(--secondary-color); /* Darker text color */
+}
+
+video{
+
+    margin-left: 10%;
+}
