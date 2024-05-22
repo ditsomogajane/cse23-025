@@ -1,70 +1,70 @@
 /* Define main colors */
 :root {
-    --primary-color: #04006C; /* Dark blue */
-    --secondary-color: #FFC200; /* Yellow */
-    --background-color: #333; /* Dark background */
+    --primary-color: #04006C; 
+    --secondary-color: #FFC200; 
+    --background-color: #333;
     --tertiary-color: #444;
 }
 
 /* General styles */
 body {
-    font-family: Arial, sans-serif; /* Use modern font */
-    background-color: var(--background-color); /* Apply dark background color */
-    color: var(--primary-color); /* Dark blue text color */
-    margin: 0; /* Reset margins */
-    padding: 0; /* Reset paddings */
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color); 
+    color: var(--primary-color); 
+    margin: 0; 
+    padding: 0; 
     line-height: 1.6;
-    min-height: 100vh; /* Ensure minimum height */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
 }
 
 /* Navbar styles */
 .navbar {
-    background-color: var(--primary-color); /* Dark blue background */
-    color: var(--secondary-color); /* Yellow text color */
-    width: 100%; /* Full width */
-    margin: 0 auto; /* Center the navbar */
+    background-color: var(--primary-color); 
+    color: var(--secondary-color); 
+    width: 100%; 
+    margin: 0 auto; 
 }
 
 /* Navbar links */
 .navbar-brand, .navbar-nav .nav-link {
-    color: var(--secondary-color); /* Yellow for the brand and link text */
+    color: var(--secondary-color); 
 }
 
 /* Center align the navbar links */
 .navbar-nav {
-    margin: auto; /* Center the links */
+    margin: auto; 
 }
 
 /* Navbar link hover */
 .nav-link:hover {
-    color: var(--primary-color); /* Dark blue text on hover */
-    background-color: var(--secondary-color); /* Yellow background on hover */
+    color: var(--primary-color); 
+    background-color: var(--secondary-color);
 }
 
 
 /* Main content styles */
 main {
-    background-color: var(--background-color); /* Dark background */
-    color: var(--secondary-color); /* Yellow text color */
-    padding: 5%; /* Padding */
-    flex: 1; /* Grow to fill remaining space */
+    background-color: var(--background-color); 
+    color: var(--secondary-color); 
+    padding: 5%; 
+    flex: 1;
 }
 
 /* Section styles */
 section {
-    background-color: var(--tertiary-color); /* Dark background */
-    border-radius: 0.5rem; /* Rounded corners */
-    padding: 5%; /* Padding */
-    margin-bottom: 3%; /* Margin bottom */
+    background-color: var(--tertiary-color); 
+    border-radius: 0.5rem; 
+    padding: 5%; 
+    margin-bottom: 3%; 
 }
 
 /* Footer styles */
 footer {
-    background-color: var(--primary-color); /* Dark blue background */
-    color: var(--secondary-color); /* Yellow text color */
-    padding: 0.8%; /* Padding */
+    background-color: var(--primary-color); 
+    color: var(--secondary-color); 
+    padding: 0.8%; 
 }
 .footer-content {
     display: flex;
@@ -97,8 +97,8 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding-bottom: 20px; /* Add padding at the bottom */
-    overflow-x: auto; /* Allow horizontal scrolling */
+    padding-bottom: 20px; 
+    overflow-x: auto; 
 }
 
 /* Movie box styles */
@@ -155,88 +155,55 @@ footer {
     border-radius: 8px;
 }
 
-/* -----------------------TV show details styles------------------------------ */
-.details {
-    flex: 0 0 60%;
-    text-align: left;
-}
-
-.synopsis {
-    font-weight: bold;
-}
-
-.play-trailer {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.play-trailer:hover {
-    background-color: #0056b3;
-}
-
-.trailer-container {
-    margin-top: 20px;
-}
-
-.trailer-video {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 8px;
-}
 /*--------------------------------------------------------------------------*/
 /* Carousel item styles */
 .carousel-item {
     flex-direction: column;
-    justify-content: space-between; /* Align items vertically */
+    justify-content: space-between; 
     display: flex;
-    align-items: center; /* Align items vertically */
-    align-items: flex-start;  /*Align items to the top */
+    align-items: center; 
+    align-items: flex-start; 
 }
 
 /* Carousel image styles */
 .carousel-item img {
-    width: 18%; /* Adjust the width of the image */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 6px; /* Add border radius */
-    margin-right: 20px; /* Add spacing between image and content */
+    width: 18%; 
+    height: auto; 
+    border-radius: 6px; 
+    margin-right: 20px; 
 }
 
 /* Carousel caption styles */
 .carousel-caption {
-    margin-left: 55px; /* Add spacing */
+    margin-left: 55px; 
     justify-content: left;
     vertical-align: text-top;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
 }
 
 /* Slide label styles */
 .carousel-caption h3  {
-    text-align: left; /* Align text to the left */
-    font-size: 1.5rem; /* Adjust font size */
-    color: var(--secondary-color); /* Yellow text color */
+    text-align: left; 
+    font-size: 1.5rem; 
+    color: var(--secondary-color); 
 }
 .carousel-caption h5  {
-    text-align: left; /* Align text to the left */
-    font-size: 1.5rem; /* Adjust font size */
-    color: var(--secondary-color); /* Yellow text color */
+    text-align: left; 
+    font-size: 1.5rem; 
+    color: var(--secondary-color); 
 }
 
 /* Placeholder content styles */
 .carousel-caption p {
-    text-align: left; /* Align text to the left */
-    font-size: 1rem; /* Adjust font size */
-    color: var(--secondary-color); /* Darker text color */
+    text-align: left; 
+    font-size: 1rem; 
+    color: var(--secondary-color); 
 }
 
 .carousel-caption ul {
-    text-align: left; /* Align text to the left */
-    font-size: 1rem; /* Adjust font size */
-    color: var(--secondary-color); /* Darker text color */
+    text-align: left; 
+    font-size: 1rem; 
+    color: var(--secondary-color); 
 }
 
 video{
@@ -244,11 +211,7 @@ video{
     margin-left: 0%;
 }
 
-
-
-
-
-
+/*Indivisual Movie page*/
 #information {
     display: flex;
     align-items: center;
@@ -271,14 +234,10 @@ video{
     margin-left: 20px;
 }
 
-/* Additional styles for image */
 .info-image {
     max-width: 100%;
     height: auto;
 }
-
-
-
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
